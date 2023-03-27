@@ -1,4 +1,4 @@
-package earth.project.Entities;
+package reality.project.Entities;
 
 public class Humans extends Entities{
     String name;

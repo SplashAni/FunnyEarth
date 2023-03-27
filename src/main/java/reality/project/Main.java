@@ -1,7 +1,7 @@
-package earth.project;
+package reality.project;
 
-import earth.project.Entities.Aliens;
-import earth.project.Entities.Humans;
+import reality.project.Entities.Aliens;
+import reality.project.Entities.Humans;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,5 +11,6 @@ public class Main {
 
         Aliens aliens= new Aliens("ohio","npc",-1); // prof pega sus is alien
         aliens.print();
+
     }
 }

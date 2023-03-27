@@ -1,4 +1,4 @@
-package earth.project.Entities;
+package reality.project.Entities;
 
 public class Entities {
     String world;
