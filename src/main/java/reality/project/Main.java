@@ -2,10 +2,16 @@ package reality.project;
 
 import reality.project.Entities.Aliens;
 import reality.project.Entities.Humans;
+import reality.project.Worlds.Earth;
+import reality.project.Worlds.World;
 
 public class Main {
     public static void main(String[] args) {
-        Humans humans = new Humans("earth","splash","srrttaight",1);
+        World earth  = new Earth(1,1,"blue and grene plant");
+
+
+
+        Humans humans = new Humans(earth,"seesnale","panSttaight",12);
         humans.print();
 
 
@@ -13,4 +19,5 @@ public class Main {
         aliens.print();
 
     }
+
 }
