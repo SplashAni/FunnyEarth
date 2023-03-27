@@ -1,2 +1,2 @@
-# FunnyEarth
+# FunntReality
 ko ewre  praciticing varbles 
